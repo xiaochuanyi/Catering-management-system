@@ -1,0 +1,17 @@
+a {
+  cursor: pointer;
+}
+.container {
+  text-align: center;
+}
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.nav {
+  display: inline;
+}
+.content {
+  text-align: center;
+}

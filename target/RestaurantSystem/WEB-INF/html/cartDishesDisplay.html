@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>stuList</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css"></link>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+</head>
+<body background="../img/timg.jpg">
+<div class="container">
+    <header>
+        <h3>菜单</h3>
+    </header>
+    <article>
+        <div style="left: 100px; position: absolute; top: 0px;font-size:35px;">桌号</div>
+        <input style="left: 200px; position: absolute; top: 20px;font-size:20px;" id="tableId" value="" readonly = "true">
+        <table class="table" id="table" border="1">
+            <tr>
+                <th>菜名</th>
+                <th>单价</th>
+                <th>单价</th>
+                <th>操作</th>
+            </tr>
+        </table>
+    </article>
+    <footer>
+        <td>菜品总价</td><input id="price" value="0" readonly = "true">
+        <a onclick="invoicing()">完成点餐</a>
+    </footer>
+</div>
+
+<script src="../js/cartDishesDisplay.js"></script>
+</body>
+</html>
