@@ -7,7 +7,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08505b06-a65c-4da2-a7d5-7da2330a4959" name="Default" comment="" />
+    <list default="true" id="08505b06-a65c-4da2-a7d5-7da2330a4959" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,7 +79,7 @@
       <file leaf-file-name="AdminLoginController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/AdminLoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="374">
               <caret line="22" column="89" selection-start-line="22" selection-start-column="89" selection-end-line="22" selection-end-column="89" />
             </state>
           </provider>
@@ -84,8 +88,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="72" column="42" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+            <state relative-caret-position="119">
+              <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -150,12 +154,15 @@
       <find>img</find>
       <find>ima</find>
       <find>login</find>
+      <find>core</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/service/impl/DishesDeleteServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/controller/DishesDeleteController.java" />
         <option value="$PROJECT_DIR$/src/main/resource/mapper/DishesUpdateMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/dao/DishesUpdateDao.java" />
@@ -206,6 +213,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/cookDishesDisplay.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/cookDishesDisplay.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/controller/AdminLoginController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -254,6 +262,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,11 +270,28 @@
               <item name="RestaurantSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="RestaurantSystem" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="RestaurantSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestaurantSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RestaurantSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestaurantSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RestaurantSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestaurantSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
@@ -575,11 +601,12 @@
       <workItem from="1562728066162" duration="414000" />
       <workItem from="1562728609063" duration="221000" />
       <workItem from="1562816194974" duration="15000" />
+      <workItem from="1565407796198" duration="384000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241424000" />
+    <option name="totallyTimeSpent" value="241808000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -592,6 +619,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015129" side_tool="true" weight="0.26359144" />
@@ -601,7 +629,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="8" weight="0.32980332" />
-      <window_info id="Structure" order="1" sideWeight="0.1598023" side_tool="true" visible="true" weight="0.2397882" />
+      <window_info id="Structure" order="1" sideWeight="0.16171618" side_tool="true" visible="true" weight="0.24357034" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.21416804" />
@@ -610,11 +638,11 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3294893" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.26029655" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.3294893" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.22240527" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8401977" visible="true" weight="0.2397882" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.83828384" visible="true" weight="0.24357034" />
       <window_info id="Web" order="6" sideWeight="0.07578254" side_tool="true" weight="0.2647504" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="5" sideWeight="0.3116883" side_tool="true" weight="0.33282906" />
@@ -968,15 +996,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/AdminLoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="374">
           <caret line="22" column="89" selection-start-line="22" selection-start-column="89" selection-end-line="22" selection-end-column="89" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="72" column="42" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+        <state relative-caret-position="119">
+          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
         </state>
       </provider>
     </entry>

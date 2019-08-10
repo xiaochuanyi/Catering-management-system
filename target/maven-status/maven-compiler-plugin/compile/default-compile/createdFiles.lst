@@ -1,4 +1,0 @@
-com\pojo\Dishes.class
-com\service\DishesSelectService.class
-com\dao\DishesSelectDao.class
-com\controller\DishesSelectController.class
